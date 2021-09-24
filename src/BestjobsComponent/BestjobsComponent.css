@@ -1,0 +1,204 @@
+.index3_best_job_wrapper .index3_best_job_wrapper {
+    background: #fff;
+    position: relative;
+}
+.index3_best_job_wrapper .line_shape {
+    position: absolute;
+    top: 30%;
+    left: -150px;
+}
+
+.index3_best_job_wrapper .jb_heading_wraper {
+    text-align: center;
+    padding-bottom: 55px;
+}
+.index3_best_job_wrapper .jb_heading_wraper h3 {
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.index3_best_job_wrapper .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+   
+    background: -moz-linear-gradient(90deg, rgb(9 23 59) 25% 25%, rgb(109, 104, 254) 100%);
+    background: -webkit-linear-gradient( 
+90deg, rgb(9 23 59) 25% 25%, rgb(109, 104, 254) 100%);
+    background: linear-gradient( 
+90deg, rgb(9 23 59) 25% 25%, rgb(109, 104, 254) 100%);
+    color: #fff;
+}
+.index3_best_job_wrapper .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
+   
+    background: -moz-linear-gradient(90deg, rgb(9 23 59) 25% 25%, rgb(109, 104, 254) 100%);
+    background: -webkit-linear-gradient( 
+90deg, rgb(9 23 59) 25% 25%, rgb(109, 104, 254) 100%);
+    background: linear-gradient( 
+90deg, rgb(9 23 59) 25% 25%, rgb(109, 104, 254) 100%);
+    color: #fff;
+}
+.index3_best_job_wrapper .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
+    background: transparent;
+    color: #000;
+    padding: 15px 45px;
+    border-radius: 100px;
+    
+}
+.index3_best_job_wrapper ul.mb-3.nav.nav-tabs {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #e2e2e2;
+    font-family: 'Poppins';
+    /* max-width: 283px; */
+    /* width: 100%; */
+    border-radius: 100px;
+    margin: auto;
+}
+.index3_best_job_wrapper ul.mb-3.nav.nav-tabs li {
+    float: left;
+    border: 0;
+    border-left: 0;
+}
+.index3_best_job_wrapper ul.mb-3.nav.nav-tabs {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #e2e2e2;
+    font-family: 'Poppins';
+    /* max-width: 283px; */
+    /* width: 100%; */
+    border-radius: 100px;
+    margin: auto;
+}
+.index3_best_job_wrapper ul.mb-3.nav.nav-tabs li button:hover {
+    border: 1px solid #ff000000;
+}
+
+.index3_best_job_wrapper ul.mb-3.nav.nav-tabs li button {
+    border: 1px solid #ff000000;
+}
+
+.index3_best_job_wrapper .card {
+    /* display: flex!important; */
+    flex-direction: inherit;
+}
+.index3_best_job_wrapper .card-header {
+    float: left;
+    width: 120px;
+    width: 120px;
+    line-height: 105px;
+    position: relative;
+}
+
+.index3_best_job_wrapper .card {
+    background: #f5f5f5;
+    margin-top: 30px;
+    border: 1px solid #e2e2e2;
+    padding: 30px 30px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+.index3_best_job_wrapper .card-header {
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    padding: 0px;
+}
+.index3_best_job_wrapper .card-body {
+    text-align: left;
+}
+.index3_best_job_wrapper .card-header {
+    position: relative;
+}
+.index3_best_job_wrapper .card-header:after {
+    content: '';
+    right: -20px;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background: #e2e2e2;
+    position: absolute;
+}
+.index3_best_job_wrapper .card-body {
+    padding-top: 0;
+    padding-left: 40px;
+}
+
+.index3_best_job_wrapper ul.card_icon_list.list-group.list-group-horizontal li {
+    margin-bottom: 10px;
+    background: transparent;
+    border: navajowhite;
+    padding: 0px;
+}
+.index3_best_job_wrapper .card:hover {
+    background: rgb(9 23 59) 25%;
+    background: -moz-linear-gradient(90deg, rgb(9 23 59) 25% 25%, rgb(109, 104, 254) 100%);
+    background: -webkit-linear-gradient( 
+90deg, rgb(9 23 59) 25% 25%, rgb(109, 104, 254) 100%);
+    background: linear-gradient( 
+90deg, rgb(9 23 59) 25% 25%, rgb(109, 104, 254) 100%);
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.index3_best_job_wrapper .card:hover .card-body .card-title.h5{
+    color: #fff;
+}
+.index3_best_job_wrapper .card:hover ul.card_icon_list li {
+    color: #fff;
+}
+
+.index3_best_job_wrapper .card:hover .card-body p.card-text {
+    color: #fff;
+}
+.index3_best_job_wrapper  .best_jobs_wrapper {
+    padding-bottom: 90px;
+    background: #f9f9f9;
+}
+.index3_best_job_wrapper .btn_hover.slider_btn.jobs_btn_3.jb_cover button {
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    height: 50px;
+    text-transform: capitalize;
+    line-height: 30px;
+    background-image: linear-gradient(to right, #09173b, #6d68fe, #4c46e6, rgb(151, 0, 255));
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    width: 185px;
+    float: none;
+    display: inline-block;
+}
+.index3_best_job_wrapper  .btn_hover.slider_btn.jobs_btn_3.jb_cover {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.index3_best_job_wrapper  .btn_hover button:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.best_jobs_wrapper {
+    padding-bottom: 90px;
+    
+}

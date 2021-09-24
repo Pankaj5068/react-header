@@ -1,0 +1,161 @@
+.footer {
+    background: #303d59;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-transform: capitalize;
+    position: relative;
+}
+.footerNav.jb_cover img {
+    width: 70px;
+    height: auto;
+    padding-bottom: 30px;
+}
+.footerNav.jb_cover {
+    float: left;
+    text-align: left;
+}
+.ft_shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.list-group-item a {
+    float: left;
+    background: #3a4868;
+    width: 40px;
+    line-height: 40px;
+    height: 40px;
+    padding-left: 0 !important;
+    text-align: center;
+    border-radius: 100px;
+    color: #fff;
+}
+.list-group-item a i {
+   
+
+    color: #fff;
+}
+.list-group-item {
+    background: transparent;
+    border: none;
+    padding: 0px 4px;
+}
+.ft_shape2 {
+    position: absolute;
+    right: 200px;
+    top: 100px;
+}
+.ft_shape1 {
+    position: absolute;
+    bottom: 168px;
+    left: 200px;
+}
+.waveWrapper {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+.waveWrapper .bgTop {
+    z-index: 15;
+    opacity: 0.5;
+}
+.waveWrapper .waveWrapperInner {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    bottom: -1px;
+}
+
+.waveWrapper .wavetop_3 {
+    background-image: url(../image/wave3.png);
+    background-size: 37% 100px;
+}
+.waveWrapper .wavebottom_3 {
+    background-image: url(../image/wave3.png);
+    background-size: 37% 100px;
+    -webkit-animation: move_wave 25s linear infinite;
+    animation: move_wave 25s linear infinite;
+}
+.waveWrapper .waveWrapperInner {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    bottom: -1px;
+}
+.waveWrapper .wave {
+    position: absolute;
+    left: 0;
+    width: 1000%;
+    height: 100%;
+    background-repeat: repeat no-repeat;
+    background-position: 0 bottom;
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+}
+.waveWrapper .bgBottom {
+    z-index: 5;
+}
+.footerNav h5 {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.flex-column.nav a {
+    
+    color: #fff;
+    padding: 6px 0px;
+}
+.flex-column.nav a i {
+    margin-right: 14px;
+    font-size: 6px;
+    position: relative;
+    top: -2px;
+    color: #f5f5f5;
+}
+.copyright_left {
+    padding-top: 30px;
+    color: rgba(255, 255, 255, 0.45);
+    font-weight: 300;
+}
+.copyright_left {
+    padding-left: 10px;
+    position: relative;
+    z-index: 1000;
+}
+.copyright_left a {
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.45);
+}
+.copyright_left {
+    text-align: left;
+}
+
+
+
+@keyframes move_wave {
+    0% {
+        -webkit-transform: translateX(0) translateZ(0) scaleY(1);
+        transform: translateX(0) translateZ(0) scaleY(1)
+    }
+    50% {
+        -webkit-transform: translateX(-25%) translateZ(0) scaleY(0.55);
+        transform: translateX(-25%) translateZ(0) scaleY(0.55)
+    }
+    100% {
+        -webkit-transform: translateX(-50%) translateZ(0) scaleY(1);
+        transform: translateX(-50%) translateZ(0) scaleY(1)
+    }
+}
+.waveWrapper .bgTop {
+    z-index: 15;
+    opacity: 0.5;
+}

@@ -1,0 +1,86 @@
+.index3_download {
+    width: 100%;
+    float: left;
+    
+    height: 100%;
+    background-position: center 0;
+    background-size: cover;
+    position: relative;
+    padding: 200px 0;
+    overflow: hidden;
+    padding-bottom: 220px;
+}
+.download_wrapper .line_shape {
+    position: absolute;
+    top: 30%;
+    left: -150px;
+}
+.download_wrapper .download_mockup_design {
+    left: -300px;
+    position: absolute;
+    top: -199px;
+}
+.download_wrapper .download_mockup_design img {
+    -webkit-animation: movebounce 3.9s linear infinite;
+    animation: movebounce 3.9s linear infinite;
+}
+.download_wrapper .download_app_store {
+    text-align: right;
+}
+.download_wrapper .download_app_store h1 {
+    font-size: 44px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: #222;
+}
+.download_wrapper .download_app_store h2 {
+    font-size: 44px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    color: #222;
+}
+.download_wrapper .download_app_store p {
+    font-size: 16px;
+    color: #222;
+}
+.download_wrapper .app_btn.playstore_2.jb_cover.btn-toolbar button {
+    height: 50px;
+    line-height: 37px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    float: right;
+    width: 210px;
+    /* height: 60px; */
+    /* line-height: 60px; */
+    text-transform: capitalize;
+    color: #222;
+    font-size: 16px;
+    text-align: center;
+    padding-right: 30px;
+    background: #ffffff;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    border: 1px solid #fff;
+}
+.download_wrapper .app_btn.playstore_2.jb_cover.btn-toolbar button span {
+    float: left;
+    width: 45px;
+    height: 39px;
+    border-right: 1px solid #e2e2e2;
+    margin-right: 17px;
+}
+.download_wrapper .btn-group:nth-child(1) {
+    padding-right: 20px;
+}
+.download_wrapper .app_btn.playstore_2.jb_cover.btn-toolbar {
+    /* float: right!important; */
+    /* text-align: right; */
+    /* margin: auto; */
+    justify-content: right;
+}

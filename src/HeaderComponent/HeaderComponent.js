@@ -1,32 +1,40 @@
 import react, { Component } from 'react'
-import {Image,Container,Dropdown ,Row ,Form,Col,NavLink,Nav, Navbar, NavDropdown ,ListGroup ,ButtonGroup, Button,Figure } from 'react-bootstrap';
+import {Carousel,Image,Container,Dropdown ,Row ,Form,Col,NavLink,Nav, Navbar, NavDropdown ,ListGroup ,ButtonGroup, Button,Figure } from 'react-bootstrap';
 import './HeaderCSS/HeaderComponent.css'
 import {Link} from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import logoimage from '../HeaderComponent/HeaderImage/gobo_logo.png'
-
 import profileimge from '../HeaderComponent/HeaderImage/pf.png'
-
-
 import 'bootstrap/dist/css/bootstrap.min.css';
+import SliderComponent from '../SliderComponent/SliderComponent'
+import BestjobsComponent from '../BestjobsComponent/BestjobsComponent'
+import StepComponent from '../HomepageComponent/StepComponent/StepComponent'
+import CompetitionComponent from '../HomepageComponent/CompetitionComponent/CompetitionComponent'
+import DownloadComponent from '../HomepageComponent/DownloadComponent/DownloadComponent'
+import StoriesComponent from  '../HomepageComponent/StoriesComponent/StoriesComponent'
+import PopularComponent from '../HomepageComponent/PopularComponent/PopularComponent'
+import PartnersComponent from '../HomepageComponent/PartnersComponent/PartnersComponent'
+import NewsletterComponent from '../HomepageComponent/NewsletterComponent/NewsletterComponent'
+import FooterComponent from '../FooterComponent/FooterComponent'
 
 class HeaderComponent extends Component{
-    constructor(props) {
-        super(props);
-        this.state = {addClass: false}
-      }
-      toggle() {
-        this.setState({addClass: !this.state.addClass});
-      }
-    render(){
-        let boxClass = ["box"];
-    if(this.state.addClass) {
-      boxClass.push('green');
+   
+    mouseEnter() {
+        console.log('mouse enter');
+        
     }
+    mouseLeave() {
+        console.log('mouse leave')
+       
+    }
+    render(){
+        
+    
+    
         
         return(
-            <div>
+            <div >
                 <header className="web_header">
                     <Container fluid>
                         <Navbar variant="light" expand="md" className="main_nav_ul ">
@@ -62,7 +70,7 @@ class HeaderComponent extends Component{
                                         <Nav.Link><a className="nav-link active_class" role="button"> Home</a> </Nav.Link>
                                         <Nav.Link><a className="nav-link" role="button"> Artist</a> </Nav.Link>
                                         <Nav.Link><a className="nav-link" role="button"> Producer</a> </Nav.Link>
-                                        <NavDropdown className="pr-2 py-2 align-text-top" title="Events" id="basic-nav-dropdown">
+                                        <NavDropdown className="pr-2 py-2 align-text-top" title="Auditions" id="basic-nav-dropdown" renderMenuOnMount={true} onMouseEnter={this.mouseEnter} onMouseLeave={this.mouseLeave}  >
                                             <Container className="eventsNav pt-0 mt-0">
                                                 <Row>
                                                     <Col xs="12" md="3" className="text-left sub_menu_block">
@@ -172,6 +180,16 @@ class HeaderComponent extends Component{
                         </Navbar>
                     </Container>
                 </header>
+                <SliderComponent/>
+                <BestjobsComponent/>
+                <StepComponent/>
+                <CompetitionComponent/>
+                <DownloadComponent/>
+                <StoriesComponent/>
+                <PopularComponent/>
+                <PartnersComponent/>
+                <NewsletterComponent/>
+                <FooterComponent/>
             </div>
         );
     }

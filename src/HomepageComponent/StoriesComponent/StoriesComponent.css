@@ -1,0 +1,114 @@
+.client_wrapper_top {
+    background: #fff;
+    padding: 60px 0;
+    position: relative;
+    overflow: hidden;
+}
+.client_wrapper_top .client_wrapper_top .jb_heading_wraper h3 {
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.client_wrapper_top  .jb_heading_wraper h3 {
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.client_wrapper_top .client_wrapper_top .jb_heading_wraper p {
+    margin: 0;
+    color: #777777;
+}
+.client_wrapper_top .client_wrapper_cntnt [class*=bubble-] {
+    -webkit-animation-name: bubbleMover;
+    animation-name: bubbleMover;
+    -webkit-animation-duration: 9s;
+    animation-duration: 9s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-perspective: 100px;
+    perspective: 100px;
+}
+.client_wrapper_top .client_shap1 {
+    position: absolute;
+    top: 35px;
+    left: 23px;
+}
+.client_wrapper_top .client_shap2 {
+    position: absolute;
+    top: 130px;
+    left: 200px;
+}
+.client_wrapper_top .client_shap3 {
+    position: absolute;
+    top: 0;
+    left: 500px;
+}
+.client_wrapper_top .client_wrapper_cntnt.jb_cover {
+    padding: 70px 70px;
+    border-radius: 100px;
+    position: relative;
+    border: 1px solid #e2e2e2;
+}
+.client_wrapper_top .client_wrapper_cntnt h1 a {
+    font-size: 20px;
+    position: relative;
+    text-transform: capitalize;
+    color: #222;
+}
+.client_wrapper_top .client_wrapper_cntnt h1 {
+    font-size: 20px;
+    position: relative;
+    text-transform: capitalize;
+}
+.client_wrapper_top .client_wrapper_cntnt h1 span {
+    margin-right: 5px;
+    color: #797979;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.client_wrapper_top .client_wrapper_cntnt.jb_cover {
+    text-align: left;
+}
+.client_wrapper_top .client_wrapper_cntnt.jb_cover img {
+    width: auto !important;
+    display: inline-block !important;
+    padding-bottom: 20px;
+}
+
+.client_wrapper_top .jb_heading_wraper {
+    text-align: center;
+    padding-bottom: 55px;
+}
+.client_wrapper_top .carousel.slide {
+    padding-top: 40px;
+}
+.client_wrapper_top a.carousel-control-prev {
+    opacity: 0;
+}
+.client_wrapper_top a.carousel-control-next {
+    opacity: 0;
+}
+.client_wrapper_top .carousel-control-prev:hover{
+    opacity: 0;
+}
+.client_wrapper_top a.carousel-control-next:hover {
+    opacity: 0;
+}
+.client_wrapper_top .shapenew {
+    top: 15%;
+    bottom: auto;
+}
+.client_wrapper_top .slider_small3_shape {
+    position: absolute;
+    right: -125px;
+    
+    z-index: 1;
+    -webkit-animation: moveleftbounce 3.0s linear infinite;
+    animation: moveleftbounce 3.0s linear infinite;
+}

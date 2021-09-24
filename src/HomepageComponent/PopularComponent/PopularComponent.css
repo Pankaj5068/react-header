@@ -1,0 +1,154 @@
+ .popular_wrapper .shapenew {
+    top: 15%;
+    bottom: auto;
+}
+.popular_wrapper .slider_small3_shape {
+    position: absolute;
+    right: -125px;
+    bottom: -27px;
+    z-index: 1;
+    -webkit-animation: moveleftbounce 3.0s linear infinite;
+    animation: moveleftbounce 3.0s linear infinite;
+}
+.popular_wrapper {
+    position: relative;
+    background: #fff;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+.popular_wrapper .jb_heading_wraper {
+    text-align: center;
+    padding-bottom: 55px;
+}
+.popular_wrapper .jb_heading_wraper h3 {
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.popular_wrapper .jb_heading_wraper p {
+    margin: 0;
+    color: #777777;
+}
+.popular_wrapper .jp_register_section_main_wrapper.jb_cover.bg-dark {
+    border-radius: 200px;
+    border: 1px solid #e2e2e2;
+}
+.popular_wrapper .jp_regis_left_side_box_wrapper {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-top: 50px;
+    border-right: 1px solid #e2e2e2;
+    position: relative;
+    background: transparent;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+.popular_wrapper .jp_regis_right_side_box_wrapper.card {
+    float: left;
+    width: 50%;
+    padding-top: 50px;
+    position: relative;
+    text-align: center;
+    background: transparent;
+    border: navajowhite;
+}
+.popular_wrapper .jp_register_section_main_wrapper.jb_cover.bg-dark .card-title.h5 {
+    font-size: 20px;
+    color: #fff;
+    text-transform: capitalize;
+    padding-top: 15px;
+}
+
+.popular_wrapper .jp_register_section_main_wrapper.jb_cover.bg-dark p.card-text {
+    padding-top: 20px;
+    color: #d9d7de;
+}
+
+.popular_wrapper .jp_regis_center_tag_wrapper {
+    width: 70px;
+    height: 70px;
+    background: #f3eeff;
+    position: absolute;
+    left: -34px;
+    top: 46%;
+    margin-top: -20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate( 
+45deg);
+    transform: rotate( 
+45deg);
+}
+.popular_wrapper .jp_regis_center_tag_wrapper p {
+    color: #222;
+    font-size: 20px;
+    font-weight: bold;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate( 
+-45deg);
+    transform: rotate( 
+-45deg);
+    margin-top: 23px;
+}
+.popular_wrapper .jp_register_section_main_wrapper.jb_cover.bg-dark button {
+    /* width: 170px; */
+    height: 50px;
+    background: #fff;
+    display: inline-block;
+    border: 1px solid #e2e2e2;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    font-size: 16px;
+    color: #222;
+    margin-bottom: 40px;
+    line-height: 30px;
+    text-transform: capitalize;
+    width: 260px;
+    margin: 0;
+    border-radius: 100px;
+}
+.popular_wrapper .btn-group {
+    position: relative;
+    bottom: -20px;
+    margin-top: 15px;
+}
+.popular_wrapper .jp_regis_left_side_box_wrapper i:before, .jp_regis_right_side_box i:before {
+    color: #fff;
+    font-size: 40px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.popular_wrapper .jp_regis_left_side_box_wrapper i:before{
+    color: #fff;
+    font-size: 40px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.popular_wrapper .jp_regis_right_side_box_wrapper.card i:before {
+    color: #fff;
+    font-size: 40px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.popular_wrapper .card-body {
+    padding: 0px;
+}

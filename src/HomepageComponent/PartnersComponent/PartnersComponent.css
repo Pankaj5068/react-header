@@ -1,0 +1,43 @@
+.pricing_table_3 {
+    padding: 100px 0;
+    background: rgb(247, 236, 255);
+    position: relative;
+    background: -moz-linear-gradient(0deg, rgb(247, 236, 255) 9%, rgb(240, 240, 255) 100%);
+    background: -webkit-linear-gradient(
+0deg, rgb(247, 236, 255) 9%, rgb(240, 240, 255) 100%);
+    background: linear-gradient(
+0deg, rgb(247, 236, 255) 9%, rgb(240, 240, 255) 100%);
+overflow: hidden;
+}
+.slider_small_shape44 {
+    position: absolute;
+    top: 35%;
+    left: -90px;
+    -webkit-animation: moveleftbounce 3.0s linear infinite;
+    animation: moveleftbounce 3.0s linear infinite;
+}
+.jb_heading_wraper h3 {
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.counter_jbbb2 img {
+    position: absolute;
+    right: -135px;
+    top: 103px;
+}
+.partener_slider_div img {
+    width: 100%;
+    max-width: 100%;
+    min-height: 106px;
+    height: 100%;
+}
+.slider_item {
+    padding-right: 20px;
+}
+.jb_heading_wraper {
+    text-align: center;
+    padding-bottom: 55px;
+}
